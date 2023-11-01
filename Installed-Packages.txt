@@ -1,0 +1,9 @@
+dotnet add "Payrolly.DAL" package Microsoft.EntityFrameworkCore.SqlServer --version 6.0.0
+dotnet add "Payrolly.DAL" package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 6.0.0
+dotnet add "Payrolly.DAL" package Microsoft.EntityFrameworkCore.Tools --version 6.0.0
+dotnet add "Payrolly.DAL" package Microsoft.AspNetCore.Identity.UI --version 6.0.0
+
+dotnet add "Payrolly.BLL" package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 6.0.0
+dotnet add "Payrolly.BLL" package Microsoft.AspNetCore.Authentication.JwtBearer --version 6.0.0
+
+dotnet add "Payrolly.Api" package Microsoft.EntityFrameworkCore.Design --version 6.0.0
